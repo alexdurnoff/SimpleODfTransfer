@@ -17,7 +17,7 @@ public class WriterCellValue {
         String value = new CellValue(dataCell).value();
         cell.setStringValue(value);
         cell.setFont(new Font("Liberation Serif", StyleTypeDefinitions.FontStyle.REGULAR,10));
-        cell.setHorizontalAlignment(StyleTypeDefinitions.HorizontalAlignmentType.LEFT);
+        cell.setHorizontalAlignment(StyleTypeDefinitions.HorizontalAlignmentType.CENTER);
         cell.setVerticalAlignment(StyleTypeDefinitions.VerticalAlignmentType.MIDDLE);
     }
 }
